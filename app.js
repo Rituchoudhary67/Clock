@@ -6,7 +6,7 @@ function currentTime() {
 
 setInterval(currentTime);
 
-var alarmSound = new Audio("audiodalanahai.mp3");
+var alarmSound = new Audio("sound.wav");
 
 function setAlarm() {
     var alarmTime = document.getElementById('alarmTime').ariaValueMax;
